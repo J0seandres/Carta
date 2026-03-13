@@ -19,26 +19,16 @@ function App() {
         <section className={`card intro ${isOpen ? 'unlocked' : ''}`} aria-live="polite">
           <p className="kicker">13 de marzo de 2026</p>
           <h1>Un detalle del mar</h1>
-          <figure className="arch-illustration" aria-label="Ilustracion del tiburon ballena">
+          <figure className="arch-illustration" aria-label="Ilustracion del mar">
             <svg viewBox="0 0 260 140" role="img" aria-hidden="true">
-              {/* Cuerpo del tiburón ballena */}
-              <ellipse cx="130" cy="70" rx="80" ry="40" fill="#00695c" stroke="#004d40" strokeWidth="2"/>
-              {/* Aleta dorsal */}
-              <polygon points="130,30 140,10 150,30" fill="#004d40"/>
-              {/* Aletas pectorales */}
-              <polygon points="70,60 50,50 70,70" fill="#004d40"/>
-              <polygon points="190,60 210,50 190,70" fill="#004d40"/>
-              {/* Cola */}
-              <polygon points="210,70 240,60 240,80" fill="#004d40"/>
-              {/* Boca */}
-              <path d="M 90 80 Q 130 100 170 80" fill="none" stroke="#004d40" strokeWidth="3"/>
-              {/* Ojos */}
-              <circle cx="110" cy="60" r="3" fill="#ffffff"/>
+              <path d="M0,70 Q65,20 130,70 T260,70 V140 H0 Z" fill="#1e3a8a" opacity="0.3"/>
+              <path d="M0,80 Q65,30 130,80 T260,80 V140 H0 Z" fill="#3b82f6" opacity="0.4"/>
+              <path d="M0,90 Q65,40 130,90 T260,90 V140 H0 Z" fill="#60a5fa" opacity="0.5"/>
+              {/* Peces simples */}
+              <circle cx="50" cy="50" r="3" fill="#ffffff"/>
+              <circle cx="55" cy="50" r="2" fill="#ffffff"/>
               <circle cx="150" cy="60" r="3" fill="#ffffff"/>
-              {/* Puntos en el cuerpo */}
-              <circle cx="100" cy="70" r="2" fill="#00838f"/>
-              <circle cx="140" cy="75" r="2" fill="#00838f"/>
-              <circle cx="160" cy="65" r="2" fill="#00838f"/>
+              <circle cx="155" cy="60" r="2" fill="#ffffff"/>
             </svg>
             <figcaption>Para mi amor del océano.</figcaption>
           </figure>
