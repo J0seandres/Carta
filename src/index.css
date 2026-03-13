@@ -1,12 +1,12 @@
 :root {
     color-scheme: only light;
-    --bg-start: #000428;
-    --bg-end: #004e92;
+    --bg-start: #000000;
+    --bg-end: #000428;
     --card: #ffffff;
-    --ink: #000428;
-    --muted: #004e92;
-    --accent: #1e40af;
-    --accent-strong: #1e3a8a;
+    --ink: #ffffff;
+    --muted: #1e3a8a;
+    --accent: #0f172a;
+    --accent-strong: #000000;
     --shadow: 0 20px 60px rgba(0, 4, 40, 0.18);
 }
 
@@ -44,7 +44,7 @@ body {
 .shape-a {
     width: 320px;
     height: 320px;
-    background: #1e3a8a;
+    background: #0f172a;
     top: -80px;
     left: -60px;
     animation-delay: 0s;
@@ -53,7 +53,7 @@ body {
 .shape-b {
     width: 220px;
     height: 220px;
-    background: #1e40af;
+    background: #1e3a8a;
     bottom: -60px;
     right: -20px;
     animation-delay: 2s;
@@ -62,7 +62,7 @@ body {
 .shape-c {
     width: 180px;
     height: 180px;
-    background: #3b82f6;
+    background: #1e40af;
     top: 20%;
     right: 12%;
     animation-delay: 4s;
@@ -82,7 +82,7 @@ body {
     border-radius: 28px;
     padding: 32px 28px;
     box-shadow: var(--shadow);
-    border: 1px solid rgba(30, 64, 175, 0.12);
+    border: 1px solid rgba(15, 23, 42, 0.12);
     animation: fadeUp 0.8s ease both;
 }
 
@@ -141,7 +141,7 @@ h2 {
 .arch-illustration svg {
     width: min(320px, 100%);
     height: auto;
-    fill: rgba(30, 64, 175, 0.08);
+    fill: rgba(15, 23, 42, 0.08);
     stroke: rgba(0, 77, 64, 0.6);
     stroke-width: 2;
 }
@@ -169,7 +169,7 @@ button:disabled {
 .primary {
     background: linear-gradient(120deg, var(--accent), var(--accent-strong));
     color: #fff;
-    box-shadow: 0 12px 26px rgba(30, 58, 138, 0.35);
+    box-shadow: 0 12px 26px rgba(0, 0, 0, 0.35);
 }
 
 .primary:not(:disabled):hover {
@@ -178,7 +178,7 @@ button:disabled {
 
 .ghost {
     background: transparent;
-    border: 1px solid rgba(0, 78, 146, 0.3);
+    border: 1px solid rgba(30, 58, 138, 0.3);
     color: var(--muted);
 }
 
@@ -205,7 +205,7 @@ button:disabled {
     padding: 18px 18px 20px;
     background: #f1f8e9;
     border-radius: 18px;
-    border: 1px solid rgba(30, 64, 175, 0.18);
+    border: 1px solid rgba(15, 23, 42, 0.18);
     box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.7);
     animation: fadeUp 0.6s ease both;
 }
@@ -222,7 +222,7 @@ button:disabled {
 
 .intro.unlocked {
     border-color: rgba(0, 105, 92, 0.4);
-    box-shadow: 0 25px 70px rgba(30, 58, 138, 0.25);
+    box-shadow: 0 25px 70px rgba(0, 0, 0, 0.25);
 }
 
 @keyframes float {

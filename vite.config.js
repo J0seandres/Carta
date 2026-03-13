@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [react()],
   base: '/Carta/',
   build: {
-    outDir: 'dist'
+    outDir: 'build'
   }
 })
