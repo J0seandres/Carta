@@ -13,6 +13,10 @@ function App() {
         <div className="shape shape-a"></div>
         <div className="shape shape-b"></div>
         <div className="shape shape-c"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
       </div>
 
       <main className="page">
@@ -21,14 +25,14 @@ function App() {
           <h1>Un detalle del mar</h1>
           <figure className="arch-illustration" aria-label="Ilustracion del mar">
             <svg viewBox="0 0 260 140" role="img" aria-hidden="true">
-              <path d="M0,70 Q65,20 130,70 T260,70 V140 H0 Z" fill="#0f172a" opacity="0.3"/>
-              <path d="M0,80 Q65,30 130,80 T260,80 V140 H0 Z" fill="#1e3a8a" opacity="0.4"/>
-              <path d="M0,90 Q65,40 130,90 T260,90 V140 H0 Z" fill="#1e40af" opacity="0.5"/>
+              <path className="wave-path" d="M0,70 Q65,20 130,70 T260,70 V140 H0 Z" fill="#00bcd4" opacity="0.3"/>
+              <path className="wave-path" d="M0,80 Q65,30 130,80 T260,80 V140 H0 Z" fill="#4dd0e1" opacity="0.4"/>
+              <path className="wave-path" d="M0,90 Q65,40 130,90 T260,90 V140 H0 Z" fill="#80deea" opacity="0.5"/>
               {/* Peces simples */}
-              <circle cx="50" cy="50" r="3" fill="#ffffff"/>
-              <circle cx="55" cy="50" r="2" fill="#ffffff"/>
-              <circle cx="150" cy="60" r="3" fill="#ffffff"/>
-              <circle cx="155" cy="60" r="2" fill="#ffffff"/>
+              <circle className="fish" cx="50" cy="50" r="3" fill="#ffffff"/>
+              <circle className="fish" cx="55" cy="50" r="2" fill="#ffffff"/>
+              <circle className="fish" cx="150" cy="60" r="3" fill="#ffffff"/>
+              <circle className="fish" cx="155" cy="60" r="2" fill="#ffffff"/>
             </svg>
             <figcaption>Para mi amor del océano.</figcaption>
           </figure>
