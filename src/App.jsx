@@ -36,7 +36,7 @@ function App() {
 
           <section className={`card intro ${isOpen ? 'unlocked' : ''}`} aria-live="polite">
             <p className="kicker">13 de marzo de 2026</p>
-            <h1>Un detalle del mar</h1>
+              <h1>Solo nosotros y nada más</h1>
             <figure className="arch-illustration" aria-label="Ilustracion del mar">
               <svg viewBox="0 0 260 140" role="img" aria-hidden="true">
                 <path className="wave-path" d="M0,70 Q65,20 130,70 T260,70 V140 H0 Z" fill="#00bcd4" opacity="0.3"/>
