@@ -48,9 +48,9 @@ function App() {
                 <circle className="fish" cx="150" cy="60" r="3" fill="#ffffff"/>
                 <circle className="fish" cx="155" cy="60" r="2" fill="#ffffff"/>
               </svg>
-              <figcaption>Para mi amor del océano.</figcaption>
+              <figcaption>Para mi Princesa</figcaption>
             </figure>
-            <p className="muted">Abre la carta del mar para leer el mensaje, mi amor.</p>
+            <p className="muted">Abre Esta carta Tengo algo que decirte...</p>
             <div className="letter-shell">
               <div className="actions">
                 <button id="openLetterBtn" className="primary" type="button" aria-expanded={isOpen} aria-controls="letterContent" onClick={toggleLetter}>
